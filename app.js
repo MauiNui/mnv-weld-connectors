@@ -34,5 +34,5 @@ app.get('/recharge/subscriptions/schema', (req, res) => {
 
 // Starting the server
 app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`);
+    console.log(`Server is running on ${PORT}`);
 });
